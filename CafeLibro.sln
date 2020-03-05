@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Libro.Api", "Cafe.Libro.Api\Cafe.Libro.Api.csproj", "{3A6F2177-6F5E-4141-935B-A33970173816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Libro.Entities", "Cafe.Libro.Entities\Cafe.Libro.Entities.csproj", "{B302A8B5-306C-4372-A3B7-57CE219BB6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe.Libro.Web", "Cafe.Libro.Web\Cafe.Libro.Web.csproj", "{4134CAF8-2BE4-4BBF-ABDD-AAB8B1ABED9B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A6F2177-6F5E-4141-935B-A33970173816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6F2177-6F5E-4141-935B-A33970173816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6F2177-6F5E-4141-935B-A33970173816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6F2177-6F5E-4141-935B-A33970173816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B302A8B5-306C-4372-A3B7-57CE219BB6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B302A8B5-306C-4372-A3B7-57CE219BB6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B302A8B5-306C-4372-A3B7-57CE219BB6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B302A8B5-306C-4372-A3B7-57CE219BB6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4134CAF8-2BE4-4BBF-ABDD-AAB8B1ABED9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4134CAF8-2BE4-4BBF-ABDD-AAB8B1ABED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4134CAF8-2BE4-4BBF-ABDD-AAB8B1ABED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4134CAF8-2BE4-4BBF-ABDD-AAB8B1ABED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
